@@ -1,0 +1,1 @@
+{"ts": "2026-10-08", "domain": "dev", "entity": "ledger", "action": "created", "summary": "作業記録の台帳（ledger）を導入した。セッション開始時は python3 ledger/status.py で作業中の事項と直近のイベントを読む。"}

@@ -1,0 +1,4 @@
+#!/bin/sh
+# ledger/events.jsonl の形と追記専用を検査（tools/check_ledger.py）。ERROR があればコミットを止める。
+# 有効化（clone ごとに1回）: git config core.hooksPath .githooks
+exec python3 "$(git rev-parse --show-toplevel)/tools/check_ledger.py"
